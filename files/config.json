@@ -1,0 +1,248 @@
+{
+    "bridge": {
+        "name": "Minha Casa",
+        "username": "00:00:00:00:00:00",
+        "port": 51826,
+        "pin": "000-00-000"
+    },
+    
+    "description": "This is an example configuration file with one fake accessory and one fake platform. You can use this as a template for creating your own configuration file containing devices you actually own.",
+
+    "platforms": [],
+
+    "accessories": [
+
+        {   "accessory": "Http",
+            "name": "luz da sala",
+            "on_url": "http://127.0.0.1:7001/gpio/21?v=1",
+            "off_url": "http://127.0.0.1:7001/gpio/21?v=0",
+            "http_method": "GET"
+        },
+        {   "accessory": "Http",
+            "name": "sala",
+            "on_url": "http://127.0.0.1:7001/gpio/21?v=1",
+            "off_url": "http://127.0.0.1:7001/gpio/21?v=0",
+            "http_method": "GET"
+        },
+
+
+
+        {   "accessory": "Http",
+            "name": "luz do balanço",
+            "on_url": "http://127.0.0.1:7001/gpio/23?v=1",
+            "off_url": "http://127.0.0.1:7001/gpio/23?v=0",
+            "http_method": "GET"
+        },
+        {   "accessory": "Http",
+            "name": "balanço",
+            "on_url": "http://127.0.0.1:7001/gpio/23?v=1",
+            "off_url": "http://127.0.0.1:7001/gpio/23?v=0",
+            "http_method": "GET"
+        },
+        {   "accessory": "Http",
+            "name": "luz de fora",
+            "on_url": "http://127.0.0.1:7001/gpio/23?v=1",
+            "off_url": "http://127.0.0.1:7001/gpio/23?v=0",
+            "http_method": "GET"
+        },
+
+
+
+        {   "accessory": "Http",
+            "name": "luz externa",
+            "on_url": "http://127.0.0.1:7001/gpio/22?v=1",
+            "off_url": "http://127.0.0.1:7001/gpio/22?v=0",
+            "http_method": "GET"
+        },
+        {   "accessory": "Http",
+            "name": "luz externo",
+            "on_url": "http://127.0.0.1:7001/gpio/22?v=1",
+            "off_url": "http://127.0.0.1:7001/gpio/22?v=0",
+            "http_method": "GET"
+        },
+        {   "accessory": "Http",
+            "name": "externa",
+            "on_url": "http://127.0.0.1:7001/gpio/22?v=1",
+            "off_url": "http://127.0.0.1:7001/gpio/22?v=0",
+            "http_method": "GET"
+        },
+        {   "accessory": "Http",
+            "name": "externo",
+            "on_url": "http://127.0.0.1:7001/gpio/22?v=1",
+            "off_url": "http://127.0.0.1:7001/gpio/22?v=0",
+            "http_method": "GET"
+        },
+
+
+
+        {   "accessory": "Http",
+            "name": "luz do corredor",
+            "on_url": "http://127.0.0.1:7001/gpio/3?v=1",
+            "off_url": "http://127.0.0.1:7001/gpio/3?v=0",
+            "http_method": "GET"
+        },
+        {   "accessory": "Http",
+            "name": "corredor",
+            "on_url": "http://127.0.0.1:7001/gpio/3?v=1",
+            "off_url": "http://127.0.0.1:7001/gpio/3?v=0",
+            "http_method": "GET"
+        },
+        {   "accessory": "Http",
+            "name": "luz da escada",
+            "on_url": "http://127.0.0.1:7001/gpio/3?v=1",
+            "off_url": "http://127.0.0.1:7001/gpio/3?v=0",
+            "http_method": "GET"
+        },
+        {   "accessory": "Http",
+            "name": "escada",
+            "on_url": "http://127.0.0.1:7001/gpio/3?v=1",
+            "off_url": "http://127.0.0.1:7001/gpio/3?v=0",
+            "http_method": "GET"
+        },
+
+
+
+        {   "accessory": "Http",
+            "name": "luz do banheiro dos filhos",
+            "on_url": "http://127.0.0.1:7001/gpio/2?v=1",
+            "off_url": "http://127.0.0.1:7001/gpio/2?v=0",
+            "http_method": "GET"
+        },
+        {   "accessory": "Http",
+            "name": "luz do banheiro",
+            "on_url": "http://127.0.0.1:7001/gpio/2?v=1",
+            "off_url": "http://127.0.0.1:7001/gpio/2?v=0",
+            "http_method": "GET"
+        },
+        {   "accessory": "Http",
+            "name": "banheiro",
+            "on_url": "http://127.0.0.1:7001/gpio/2?v=1",
+            "off_url": "http://127.0.0.1:7001/gpio/2?v=0",
+            "http_method": "GET"
+        },
+
+
+
+        {   "accessory": "Http",
+            "name": "luz do banheiro da suíte",
+            "on_url": "http://127.0.0.1:7001/gpio/1?v=1",
+            "off_url": "http://127.0.0.1:7001/gpio/1?v=0",
+            "http_method": "GET"
+        },
+        {   "accessory": "Http",
+            "name": "banheiro da suíte",
+            "on_url": "http://127.0.0.1:7001/gpio/1?v=1",
+            "off_url": "http://127.0.0.1:7001/gpio/1?v=0",
+            "http_method": "GET"
+        },
+        {   "accessory": "Http",
+            "name": "luz do banheiro do casal",
+            "on_url": "http://127.0.0.1:7001/gpio/1?v=1",
+            "off_url": "http://127.0.0.1:7001/gpio/1?v=0",
+            "http_method": "GET"
+        },
+        {   "accessory": "Http",
+            "name": "banheiro do casal",
+            "on_url": "http://127.0.0.1:7001/gpio/1?v=1",
+            "off_url": "http://127.0.0.1:7001/gpio/1?v=0",
+            "http_method": "GET"
+        },
+
+
+
+        {   "accessory": "Http",
+            "name": "luz do quarto da giulia",
+            "on_url": "http://127.0.0.1:7001/gpio/4?v=1",
+            "off_url": "http://127.0.0.1:7001/gpio/4?v=0",
+            "http_method": "GET"
+        },
+        {   "accessory": "Http",
+            "name": "luz do quarto da Giulia",
+            "on_url": "http://127.0.0.1:7001/gpio/4?v=1",
+            "off_url": "http://127.0.0.1:7001/gpio/4?v=0",
+            "http_method": "GET"
+        },
+        {   "accessory": "Http",
+            "name": "luz do quarto da Julia",
+            "on_url": "http://127.0.0.1:7001/gpio/4?v=1",
+            "off_url": "http://127.0.0.1:7001/gpio/4?v=0",
+            "http_method": "GET"
+        },
+        {   "accessory": "Http",
+            "name": "quarto da giulia",
+            "on_url": "http://127.0.0.1:7001/gpio/4?v=1",
+            "off_url": "http://127.0.0.1:7001/gpio/4?v=0",
+            "http_method": "GET"
+        },
+        {   "accessory": "Http",
+            "name": "quarto da Giulia",
+            "on_url": "http://127.0.0.1:7001/gpio/4?v=1",
+            "off_url": "http://127.0.0.1:7001/gpio/4?v=0",
+            "http_method": "GET"
+        },
+        {   "accessory": "Http",
+            "name": "quarto da Julia",
+            "on_url": "http://127.0.0.1:7001/gpio/4?v=1",
+            "off_url": "http://127.0.0.1:7001/gpio/4?v=0",
+            "http_method": "GET"
+        },
+
+
+
+        {   "accessory": "Http",
+            "name": "luz do quarto do lucas",
+            "on_url": "http://127.0.0.1:7001/gpio/0?v=1",
+            "off_url": "http://127.0.0.1:7001/gpio/0?v=0",
+            "http_method": "GET"
+        },
+        {   "accessory": "Http",
+            "name": "quarto do lucas",
+            "on_url": "http://127.0.0.1:7001/gpio/0?v=1",
+            "off_url": "http://127.0.0.1:7001/gpio/0?v=0",
+            "http_method": "GET"
+        },
+
+
+
+        {   "accessory": "Http",
+            "name": "luz do quarto do casal",
+            "on_url": "http://127.0.0.1:7001/gpio/5?v=1",
+            "off_url": "http://127.0.0.1:7001/gpio/5?v=0",
+            "http_method": "GET"
+        },
+        {   "accessory": "Http",
+            "name": "quarto do casal",
+            "on_url": "http://127.0.0.1:7001/gpio/5?v=1",
+            "off_url": "http://127.0.0.1:7001/gpio/5?v=0",
+            "http_method": "GET"
+        },
+        {   "accessory": "Http",
+            "name": "luz da suíte",
+            "on_url": "http://127.0.0.1:7001/gpio/5?v=1",
+            "off_url": "http://127.0.0.1:7001/gpio/5?v=0",
+            "http_method": "GET"
+        },
+        {   "accessory": "Http",
+            "name": "suíte",
+            "on_url": "http://127.0.0.1:7001/gpio/5?v=1",
+            "off_url": "http://127.0.0.1:7001/gpio/5?v=0",
+            "http_method": "GET"
+        },
+        
+        
+        
+        {   "accessory": "Http",
+            "name": "luz da garagem",
+            "on_url": "http://127.0.0.1:7001/gpio/24?v=1",
+            "off_url": "http://127.0.0.1:7001/gpio/24?v=0",
+            "http_method": "GET"
+        },
+        {   "accessory": "Http",
+            "name": "garagem",
+            "on_url": "http://127.0.0.1:7001/gpio/24?v=1",
+            "off_url": "http://127.0.0.1:7001/gpio/24?v=0",
+            "http_method": "GET"
+        }
+    ]
+
+}
