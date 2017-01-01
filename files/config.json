@@ -163,7 +163,7 @@
             "http_method": "GET"
         },
         {   "accessory": "Http",
-            "name": "luz do quarto da Julia",
+            "name": "luz do quarto da Júlia",
             "on_url": "http://127.0.0.1:7001/gpio/4?v=1",
             "off_url": "http://127.0.0.1:7001/gpio/4?v=0",
             "http_method": "GET"
@@ -181,7 +181,7 @@
             "http_method": "GET"
         },
         {   "accessory": "Http",
-            "name": "quarto da Julia",
+            "name": "quarto da Júlia",
             "on_url": "http://127.0.0.1:7001/gpio/4?v=1",
             "off_url": "http://127.0.0.1:7001/gpio/4?v=0",
             "http_method": "GET"
