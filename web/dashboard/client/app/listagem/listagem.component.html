@@ -1,0 +1,11 @@
+<h1 class="text-left">minha-casa</h1>
+
+<div class="container">
+    <div class="row">
+        <painel #painel *ngFor="let device of devices" titulo="{{device.titulo | uppercase }}" class="col-md-2">
+            <a [routerLink]="['/device', device._id]">
+                <device imageurl="{{device.imageurl}}" titulo="{{device.titulo}}"></device>
+            </a>
+        </painel>
+    </div>
+</div>
