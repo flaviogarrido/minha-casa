@@ -37,13 +37,7 @@ export class DeviceComponent {
 
         });
 
-        
-        this.meuForm = fb.group({
-            titulo: ['', Validators.compose([Validators.required, Validators.minLength(4)])],
-            imageurl: ['', Validators.required],
-            deviceurl: ['', Validators.required],
-            descricao: ['']
-        });
+
     }
     
 }
