@@ -16,4 +16,8 @@ module.exports = function(app) {
 
 	});
 
-}
+	app.get('/gpio/:id/status', (req, res) => {
+		res.send("1");
+		res.status(200).end();
+
+	});}
